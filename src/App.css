@@ -1,0 +1,522 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.liste{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  list-style: none;
+ 
+}
+.item{
+margin-left: 50px;
+text-decoration: none;
+color: black;}
+
+.profile{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.cardss{
+  flex-wrap: wrap;
+  background-color: #C4EEF2	;
+  height: 500px;
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  padding-top: 60px; /* Ajustez cette valeur en fonction de la hauteur de votre barre de navigation */
+  overflow-y: auto;
+
+}
+.cardss h2{
+    padding-left: 30px;
+    margin-top: -20px;
+}
+.card-container {
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+  border-radius: 30px;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: white;
+
+}
+
+.card--image{
+  padding-top: 15px;
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+}
+/*FAVORITE COURESES */
+.cardfav--image{
+  padding-top: 15px;
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+  margin-left: -45px;
+}
+.favourite_courses{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media (max-width: 1260px) {
+  .favourite_courses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 840px) {
+  .favourite_courses {
+    grid-template-columns: 1fr;
+  }
+}
+.Fav_courses {
+  width: 400px;
+ flex-wrap: wrap;
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .favourite_courses {
+    justify-content: flex-start;
+  }
+
+  .Fav_courses {
+    width: 100%;
+  }
+}
+.Fav_courses p{
+  padding-left: 20px;
+  max-width: 300px;
+}
+.Fav_courses img{
+  width: 300px;
+}
+.favourite{
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.favourite h2{
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
+.description-fav{}
+/* MOST VIEWD */
+.most-viewd{
+  margin-top: 90px;
+  background-color: #C4EEF2;
+  width: 95%;
+  margin: auto;
+  height: 600px;
+  border-radius: 20px;
+}
+.most-viewd h2{
+  padding-top: 20px;
+  font-size:30px;
+  margin-left: 100px;
+ 
+}
+.duree-icone{
+    width: 20px;
+}
+.most-viewd-card{
+  border-radius: 30px;
+  width: 400px;
+  text-align: center;
+  display: block;
+  background-color:white;
+}
+.most-viewd-card p{
+  padding-left: 80px;
+  max-width: 250px;
+}
+.duree{
+  justify-items: left;
+  justify-content: left;
+  margin-left: 200px;
+
+  display: flex;
+  
+}
+.duree span{
+  padding-left: 10px;
+}
+.username_div{
+  display: flex;
+  justify-content: space-around;
+}
+.carde_prix{
+  display: flex;
+  justify-content: space-around;
+}
+/*cour*/
+/*courses*/
+.courses-card{
+
+  display: flex;
+  background-color: white;
+  width: 800px;
+margin-bottom: 20px;
+  border-radius: 20px;
+
+}
+
+
+  .cour-info{
+    padding-left: 20px;
+  }
+ 
+  .cour-icon{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top:35px ;
+    border-radius: 10px;
+
+  }
+  
+.coursess{
+  width: 700px; 
+  margin: auto;
+  margin-top: 40px;
+}
+.coursess h2{
+margin: auto;
+}
+.coursess h1{
+  margin-left: 200px;
+}
+@media (max-width: 768px) {
+  .courses-card {
+ height: auto;
+margin-right: auto;
+margin-left: 40px;
+ width: 70%; /* Chaque carte occupe la moitié de la largeur en mode mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .courses-card {
+   height: auto;
+    width: 70%; /* Chaque carte occupe toute la largeur en mode mobile */
+  }
+}
+/* PAGE LOGIN*/
+.login-container{
+  background-color: white;
+  display: flex;
+  width: 100vw; /* 100% de la largeur de la fenêtre */
+  height: 100vh;
+    align-items: center;
+  justify-items: center;
+  padding-top: -100px;
+  
+}
+.logologin{
+  width: 160px;
+  height: 100px;
+  margin-top: -20px;
+}
+.img-login{
+  display: flex;
+  flex-direction: column;
+}
+.elearning-img{
+  width: 700px;
+  margin-left: 50px;
+}
+.elearing-form{
+  display: flex;
+}
+
+.login-register-div{
+  width: 400px;
+  height: 70px;
+  background-color:#9BF2EA;
+  border-radius: 30px;
+text-align: center;
+justify-items: center;
+margin-bottom: 30px;
+}
+.login-button{
+  background-color: #41BFB3;
+  margin-top: 17px;
+  margin-left: 15px;width: 120px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+
+}
+#register-button{
+width: 120px;
+height: 30px;
+border-radius: 20px;
+margin-top: 17px;
+margin-left: 15px;
+border: none;
+background-color: #41BFB3;
+
+}
+.input{
+  width: 400px;
+  height: 50px;
+  border-color: aquamarine;
+  border-radius: 30px;
+  padding-left: 30px;
+
+}
+.submit{
+  margin-top: 20px;
+  margin-left: 300px;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: #C4EEF2;
+  background-color: #41BFB3 ;
+}
+.login-phrase{
+max-width: 100px;
+}
+.login-div{
+  margin-left: 200px;
+}
+@media screen and (max-width: 768px) {
+  .login-div {
+    order: 3;
+  }
+  
+  .elearing-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .elearning-img{
+    width: 300px;
+  }
+  .login-div{
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  .elearing-form {
+    margin-bottom: 20px;
+  }
+}
+
+/* Footer */ 
+.Footer{
+  margin-top: 3rem;
+  width: 100%;
+  padding-bottom: 20vh;
+
+  background-color: #161C2E;
+}
+.contactusLine{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  width: 100%;
+  border-bottom: 1px solid blue;
+
+  background-color: #003C57;
+  height: 100px;
+}
+.reseau{
+  background-color: transparent;
+  display: flex;
+  width: 15rem;
+  align-items: center;
+}
+.reseau img{
+  background-color: transparent;
+  width: 60px; 
+  margin-left: 40px;
+
+}
+.reseau p{
+  text-align: center;
+  background-color: transparent;
+  color: white;
+
+}
+
+.infosFooter{
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+
+}
+.aboutUsInfos{
+  width: 13%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+
+}
+.aboutUsInfos h1{
+  color: white;
+  background-color: transparent;
+  font-size: 30px;
+}
+.aboutUsInfos p{
+  margin-top: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 13px;
+}
+.aboutUsInfos a{
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+.aboutUsInfos a:hover{
+  color: blue;
+}
+
+
+/* NAVBAR */ 
+.headerAvantConn{
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid blue;
+  position: fixed;
+ 
+}
+.logo{
+  background-color: rgb(255, 255, 255);
+  width: 140px;
+
+}
+.headerAvantConn img{
+  width: 100%
+
+}
+
+
+.middleNav{
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  font-weight: bold;
+}
+
+.middleNav a{
+  text-decoration: none;
+  margin-left: 60px;
+  background-color: white;
+  color: black;
+}
+
+.btns{
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  display: flex;
+}
+.btns button{
+  background-color: #B7CFFF;
+  color: black;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.showBtn{
+  width: 50px;
+  margin-left: 1rem;
+  display: none;
+}
+.showBtn img{
+  width: 100%;
+}
+.showBtn img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.profileIcon img{
+  width: 50px;
+
+}
+
+
+.sideBar{
+  font-weight: bolder;
+  width: 40%;
+  background-color: #212121;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  text-align: center;
+  opacity: 1; /* Set initial opacity */
+  transition: 0.5s /* Set default transition time and easing function */
+
+}
+.sideBar a{
+  padding: 0.5rem;
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 3rem;
+  background-color: transparent;
+  color: white;
+  transition: 0.5s;
+}
+.sideBar a:hover{
+  transform: scale(1.05);
+  color: rgb(101, 101, 255);
+}
+.sideBar button{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 20px;
+  border-radius: 50px;
+  font-weight: bolder;
+  color: white;
+  background-color: red;
+  border: 2px solid red;
+}
+.sideBar button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
